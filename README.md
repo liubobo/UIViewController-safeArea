@@ -12,9 +12,9 @@
 
 ``` bash
 [button mas_makeConstraints:^(MASConstraintMaker *make) {
-make.left.right.equalTo(self.view);
-make.height.equalTo(@60);
-make.bottom.equalTo(self.am_safeBottom).offset(-20);
+	make.left.right.equalTo(self.view);
+	make.height.equalTo(@60);
+	make.bottom.equalTo(self.am_safeBottom).offset(-20);
 }];
 ```
 
